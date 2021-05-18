@@ -1,0 +1,23 @@
+html {
+  background-color: teal;
+}
+body {
+  background-color: white;
+  height: 100vh;
+}
+.screen-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  box-sizing: border-box;
+}
+.screen-header i:last-child {
+  opacity: 0;
+}
+.screen-header span {
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
