@@ -5,12 +5,19 @@ body {
   background-color: white;
   height: 100vh;
 }
+main {
+  margin: 0px 30px;
+}
 .screen-header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 20px 30px;
+  padding: 15px 0px;
   box-sizing: border-box;
+}
+.screen-header i:first-child {
+  display: flex;
+  align-items: flex-end;
 }
 .screen-header i:last-child {
   opacity: 0;
@@ -18,6 +25,86 @@ body {
 .screen-header span {
   font-size: 30px;
   font-weight: bold;
+}
+.title {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0px;
+}
+.title-image {
+  width: 140px;
+  height: 140px;
+  border: 1px solid black;
+  background-color: orange;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title-image i {
+  opacity: 0.8;
+  color: white;
+}
+.title-info {
+  width: 300px;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.title-name {
+  word-wrap: break-word;
+  line-height: 47px;
+  font-size: 45px;
+  font-weight: bold;
+}
+.title-singer {
+  font-size: 20px;
+}
+.control-button {
+  display: flex;
+  justify-content: space-between;
+}
+.control-button__play {
+  width: 50%;
+  height: 60px;
+  border: solid black;
+  border-width: 2px 2px 6px 2px;
+
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.control-button__play div {
+  width: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.control-button__play div span {
+  font-size: 30px;
+  font-weight: bold;
+}
+.control-button__heart {
+  width: 15%;
+  height: 60px;
+  border: solid black;
+  border-width: 2px 2px 6px 2px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.control-button__plus {
+  width: 15%;
+  height: 60px;
+  border: solid black;
+  border-width: 2px 2px 6px 2px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
