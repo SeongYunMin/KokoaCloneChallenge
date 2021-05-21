@@ -150,15 +150,45 @@ form button i {
   width: 100%;
   display: flex;
   overflow-x: scroll;
+  height: 190px;
+}
+.top-adventures::-webkit-scrollbar {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 4px;
 }
 .top-adventures::-webkit-scrollbar-thumb {
-  background: #000;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 .top-adventures div {
   display: flex;
   flex-direction: column;
-  width: 120px;
+  width: 150px;
+  justify-content: space-between;
+  padding-bottom: 8px;
 }
 .top-adventures span {
   text-align: center;
+}
+.popular-authors {
+  display: flex;
+}
+
+.popular-authors div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 0px 20px 20px;
+  width: 250px;
+}
+.popular-authors div span:first-child {
+  font-size: 20px;
+  font-weight: 700;
+}
+.popular-authors div span:last-child {
+  color: rgba(0, 0, 0, 0.5);
+}
+.popular-authors img {
+  width: 140px;
+  height: 180px;
+  border-radius: 10px;
 }
