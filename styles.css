@@ -5,12 +5,12 @@ h1 {
 body {
   margin: 0px;
   background-color: #dde1e7;
-  height: 100vh;
 }
 main {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 60px;
 }
 .main-box {
   width: 500px;
